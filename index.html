@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/89a3d21376.js" crossorigin="anonymous"></script>
+
+    <title>clinica</title>
+</head>
+<body>
+    <header class="titulo">
+        <h1>CLINICA SIMPLES</h1>
+        <img src="clinica-png-removebg-preview.png">
+        <nav>
+            <a href="#">sobre</a>
+            <a href="#">horario</a>
+            <a href="#">contato</a>
+            <a href="#">especialidades</a>
+        </nav>
+      <hr>
+    </header>
+    <section class="form">
+        <form class="formulario" method="post"> 
+            
+            <div class="field">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            </div>
+            
+            <div class="field">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Telefone">
+            </div>
+    
+            <div class="field">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="E-Mail" required>
+            </div>        
+            
+            <div class="field">
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+            </div>
+    
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+        <hr>
+
+    </section>
+    <section class="especialidades">
+        <h1>ESPECIALIDADES</h1>
+        <ul>
+            <li>Clinica geral</li>
+            <li>oftalmologia</li>
+            <li>psicologia</li>
+            <li>pediatria</li>
+            
+        </ul>
+        
+        <hr>
+
+    </section>
+    <section class="sobre-nos">
+        <p>Em novembro de 2018, Camaragibe recebeu o seu primeiro Centro Médico da cidade. Um empreendimento de mais de 1.200m2, com 4 pavimentos, infraestrutura de altíssimo nível e todo pensado para oferecer comodidade, segurança e conforto ao nosso paciente.</p>
+
+    </section>
+        <hr>
+    <section class="horario">
+        <table>
+            <tr>
+              <th>serviços</th>
+              <th>segunda a sexta</th>
+              <th>sabados</th>
+              <th>feriados</th>
+            </tr>
+            <tr>
+              <td>clinica geral</td>
+              <td>08h - 19h</td>
+              <td>08h - 14h</td>
+              <td>08h - 14h</td>
+            </tr>
+            <tr>
+              <td>psicologia</td>
+              <td>08h - 19h</td>
+              <td>08h - 14h</td>
+              <td>08h - 14h</td>
+            </tr>
+            <tr>
+                <td>pediatria</td>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>oftalmologia</td>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>-</td>
+            </tr>
+            
+          </table>
+
+    </section>
+    <hr>
+    <footer class="rodape">
+        <a href="#"><i class="fa-brands fa-whatsapp"></i> (81)9 8490-7890</a>
+        
+        <p>clinica simples &copy;</p>
+        
+
+    </footer>
+    
+</body>
+</html>
